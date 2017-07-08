@@ -1,0 +1,25 @@
+div.linkMail{
+    padding: 15px;
+    width:100%;
+    margin-left:-11px;
+    width: calc(100% + 22px);
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.parallax-container{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.contact{
+    color : white;
+    background-color: rgba(0,0,0,0.2);
+}
+
+a.dropdown-button{
+    width:100%;
+}

@@ -1,0 +1,11 @@
+<h2>Nos Services</h2>
+<!--
+<div #carousel class="carousel" [ngClass]="{ 'initialized': showInitialized }" materialize="carousel">
+  <a *ngFor="let url of imageURLs" class="carousel-item"><img [src]="url"></a>
+</div>
+-->
+
+
+<div class="categories row">
+  <app-categorie  *ngFor="let service of services" [service]="service"></app-categorie>
+</div>

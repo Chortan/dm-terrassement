@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Terrassement & excavation",
+        "description" : "Nous pouvons nous occuper de votre terrassement !",
+        "image" : "/assets/images/categories/terrassement.jpg"
+    },
+    {
+        "name":"Aménagement extérieur",
+        "description" : "Votre jardin à besoin d'une touche d'éclat ? Venez voir nos création et personalisez le votre !",
+        "image" : "/assets/images/categories/amenagementExterieur.jpg"
+    },
+    {
+        "name":"Piscine",
+        "description" : "Envie de vous rafraîchire ? N'attendez plus, ici toutes nos piscines !",
+        "image" : "/assets/images/categories/piscine.jpg"
+    },
+    {
+        "name":"mur de soutènement",
+        "description" : "",
+        "image" : "/assets/images/categories/murSoutenement.jpg"
+    }
+]

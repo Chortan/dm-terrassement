@@ -1,0 +1,25 @@
+<div class="row mainAccueil">
+<!--    <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted">
+        <source src="/assets/images/jardin.mp4" type="video/mp4" />
+        <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+            <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+            <param name="allowFullScreen" value="true" />
+            <param name="wmode" value="transparent" />
+            <param name="flashVars" value="config={'playlist':['http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg',{'url':'http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
+        </object>
+    </video>
+-->
+    
+    <div class="row accueil">
+        <div class="col l6 offset-l3 m8 offset-m2 title">
+            <h3 class="center">David Muller - Terrassement</h3>
+            <p class="center">Terrassement, piscine et aménagement extérieur</p>
+        </div>    
+        <div class="row col m12 center">
+            <button [routerLink]="['/services']" class="button btn yellow darken-2">Nos Services</button>
+        </div>
+    </div>
+
+    <app-caroussel [images]="imageURLs"></app-caroussel>      
+
+</div>

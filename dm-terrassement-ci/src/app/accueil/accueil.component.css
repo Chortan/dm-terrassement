@@ -1,0 +1,28 @@
+video, object {
+    left:0;
+    top:0;
+    margin:0;
+    padding:0;
+    width:100%;
+    position:fixed;
+    z-index:-1;
+}
+
+div.accueil{
+    width:100%;
+    margin-top:50px;
+    position: absolute;
+}
+
+div.accueil div.title{
+    color: white;
+    text-shadow: 0px 0px 2px #C8C8C8;
+}
+
+div.mainAccueil{
+    background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+    opacity:0.4;
+}

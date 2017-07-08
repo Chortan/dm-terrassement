@@ -1,0 +1,33 @@
+<h2 class="center title">Formulaire de contact</h2>
+<div class="row">
+
+  
+  <div class="parallax-container">
+    <div class="parallax" materialize="parallax"><img src="/assets/images/secretaire.jpg"></div>
+    <div class="col offset-l1 l4 m6 s12 contact" >
+      <h5 class="center">Adresse</h5>
+      <p>DM Terrassement</p>
+      <p>10 route de Sélestat</p>
+      <p>67390 - HESSENHEIM</p>
+
+    </div>
+
+    <div class="col offset-l1 l4 m6 s12 contact">
+      <h5 class="center">Contactez nous par e-mail</h5>
+      <p class="center">Une réponse rapide !</p>
+      
+      <!-- Dropdown Trigger -->
+     <a materialize="dropdown" class='dropdown-button btn blue' data-activates='dropdown1'>{{motif}}</a>
+     <!-- Dropdown Structure -->
+     <ul id='dropdown1' class='dropdown-content'>
+       <li *ngFor="let motif of motifs" (click)="onChange(motif)"><a>{{motif}}</a></li>
+     </ul>
+      <a *ngIf="motif!=textInitial" href="mailto:david.muller10@free.fr?subject={{motif}}"><div class="waves-effect blue white-text linkMail"><i class="fa fa-envelope"></i> david.muller10@free.fr</div></a>
+    </div>
+  </div>
+
+  <p>+33 (0) 6 81 06 76 55</p>
+        
+ 
+
+</div>

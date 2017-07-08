@@ -1,0 +1,5 @@
+<div class="arrow left" (click)="left()"><i class="fa fa-chevron-left"></i></div>
+<div class="arrow right" (click)="right()"><i class="fa fa-chevron-right"></i></div>
+<div *ngFor="let image of images; let i = index" class="caroussel">
+  <app-image  [image]="image" *ngIf="i==currentImage"></app-image>
+</div>
