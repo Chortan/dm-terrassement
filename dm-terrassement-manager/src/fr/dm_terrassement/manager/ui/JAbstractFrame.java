@@ -21,12 +21,15 @@ public abstract class JAbstractFrame extends JFrame{
 	public void setupUI(){
 		this.add(this.panel);
 		
-		this.pack();
 		this.setVisible(true);
 		this.controller.onInit();
 	}
 	
 	public JAbstractPanel getFramePanel(){
+		return this.panel;
+	}
+	
+	public JAbstractPanel getPanel(){
 		return this.panel;
 	}
 	
